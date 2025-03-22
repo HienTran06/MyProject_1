@@ -55,41 +55,48 @@ const server = http.createServer((req, res) => {
             <table>
                 <thead>
                     <tr>
+						<th>MSSV</th>
                         <th>Họ và Tên</th>
-                        <th>Vai Trò</th>
+                        <th>Ngày sinh</th>
 						<th>Quê quán</td>
-						<th>SĐT</td>						
-                        <th>Email</th>
+						<th>Email</th>
+						<th>SĐT</td>				
+                        
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
+						<td>M2524009</td>
                         <td>Lê Vũ Hoàng Lan</td>
-                        <td>Thành viên 1</td>
+                        <td>05/10/1995</td>
 						<td>Hậu Giang</td>
-						<td>0944048051</td>
-                        <td>email@example.com</td>
+						<td>lanm2524009@gstuden.ctu.edu.vn</td>
+						<td>0944048051</td>                        
                     </tr>
                     <tr>
+						<td>M2524007</td>
                         <td>Trần Thu Hiền</td>
-                        <td>Thành viên 2</td>
+                        <td>03/06/1996</td>
 						<td>Sóc Trăng</td>
+						<td>hienm2524007@gstuden.ctu.edu.vn</td>
 						<td>0399297197</td>
-                        <td>email@example.com</td>
+                        
                     </tr>
                     <tr>
+						<td>M2524017</td>
                         <td>Nguyễn Diệp Gia Bảo</td>
-                        <td>Thành viên 3</td>
+                        <td>17/07/2001</td>
 						<td>Đồng Tháp</td>
-						<td>0123456789</td>
-                        <td>email@example.com</td>
+						<td>baom2524017@gstuden.ctu.edu.vn</td>
+						<td>0123456789</td>                        
                     </tr>
                     <tr>
+						<td>M2524028</td>
                         <td>Nguyễn Văn Vũ</td>
-                        <td>Thành viên 4</td>
+                        <td>10/02/2001</td>
 						<td>Đồng Tháp</td>
-						<td>0123456789</td>
-                        <td>email@example.com</td>
+						<td>vum2524028@gstuden.ctu.edu.vn</td>
+						<td>0123456789</td>                        
                     </tr>
                 </tbody>
             </table>
